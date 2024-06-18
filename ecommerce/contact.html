@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+
+<body>
+    <section class="body">
+        <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <div class="container-xl">
+                <a class="navbar-brand" href="#">
+                    <h1 class="header">ZAY</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contact</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                contact
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Number</a></li>
+                                <li><a class="dropdown-item" href="#">email</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link">twitter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">facebook</a>
+                        </li>
+                    </ul>
+                    <div class="search-and-icons">
+                        <!-- <form class="d-flex mb-2 me-2" role="search">
+                            <input class="form-control me-2" type="search" aria-label="Search">
+                        </form> -->
+                        <div class="user-icons d-flex mb-2">
+                            <div class="profile"><i class="bi bi-person"></i></div>
+                            <div class="wishlist"><i class="bi bi-heart"></i></div>
+                            <div class="cart"><i class="bi bi-cart3"></i></div>
+                        </div>
+                    </div>
+                    <div class="contact-info d-md-flex">
+                        <p>+0987654321 | +1234567890 </p>
+                        <p><a href="mailto:">contact@domainname.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section>
+            <!-- section1 -->
+            <section id="contact" class="">
+
+                <h1 class="section-header">Contact</h1>
+
+                <div class="contact-wrapper">
+
+                    <!-- Left contact page -->
+
+                    <form id="contact-form" class="form-horizontal" role="form">
+
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                                <input type="text" class="form-control" id="name" placeholder="NAME" name="name"
+                                    value="" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email"
+                                    value="" required>
+                            </div>
+                        </div>
+
+                        <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message"
+                            required></textarea>
+
+                        <button class="btn btn-primary send-button" id="submit" onclick="changecolor" type="submit" value="SEND">
+                            <div class="alt-send-button">
+                                <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+                            </div>
+
+                        </button>
+
+                    </form>
+
+                    <!-- Left contact page -->
+
+                    <div class="direct-contact-container">
+
+                        <ul class="contact-list">
+                            <li class="list-item"><i class="fa fa-map-marker fa-2x"><span
+                                        class="contact-text place">Chennai,Tamil nadu</span></i></li>
+
+                            <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a
+                                            href="tel:1-212-555-5555" title="Give me a call">(212)
+                                            555-2368</a></span></i></li>
+
+                            <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a
+                                            href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></i>
+                            </li>
+
+                        </ul>
+
+                        <hr>
+                        <ul class="social-media-list">
+                            <li><a href="#" target="_blank" class="contact-icon">
+                                    <i class="fa fa-github" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a href="#" target="_blank" class="contact-icon">
+                                    <i class="fa fa-codepen" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a href="#" target="_blank" class="contact-icon">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a href="#" target="_blank" class="contact-icon">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                        <hr>
+                        <button onclick="changecolor()" class="moon"><i class="fa fa-moon-o" style="font-size:40px;color:white"></i></button>
+                        <!-- <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div> -->
+
+                    </div>
+
+                </div>
+
+            </section>
+            <!-- contact end -->
+            <!-- footer -->
+            <section class="footer">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="row">
+                        <h1 class="footerhead">ZAY</h1>
+                      </div>
+                      <hr class="line">
+                      <div class="row">
+                        <p class="footerpara"><i class="material-icons" style="font-size:20px">location_on</i>123 chennai 10660</p>
+                        <p class="footerpara"><i class="material-icons" style="font-size:20px">phone</i> 8765309873</p>
+                        <p class="footerpara"><i class="material-icons" style="font-size:20px">mail</i> info@company.com</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="row">
+                        <h1 class="footerproducthead">Products</h1>
+                      </div>
+                      <hr class="line">
+                      <div class="row">
+                        <a class="atag" href="#">Luxury</a>
+                        <a class="atag" href="#">Sport Wear</a>
+                        <a class="atag" href="#">Men's Shoes</a>
+                        <a class="atag" href="#">Women's Shoes</a>
+                        <a class="atag" href="#">Popular Dress</a>
+                        <a class="atag" href="#">Gym Accessories</a>
+                        <a class="atag" href="#">Sport Shoes</a>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="row">
+                        <h1 class="footerproducthead">Further Info</h1>
+                      </div>
+                      <hr class="line">
+                      <div class="row">
+                        <a class="atag" href="#">Home</a>
+                        <a class="atag" href="#">About Us</a>
+                        <a class="atag" href="#">Shop Locations</a>
+                        <a class="atag" href="#">FAQs</a>
+                        <a class="atag" href="#">Contact</a>
+                      </div>
+                    </div>
+                  </div>
+                  <hr class="line">
+                  <div class="row footerlastpart">
+                    <div class="col-md-4">
+                      <ul class="List-inline">
+                        <li class="list"><i class="fa fa-facebook footericon" style="font-size:30px"></i></li>
+                        <li class="list"><i class="fa fa-instagram footericon" style="font-size:30px"></i></li>
+                        <li class="list"><i class="fa fa-twitter footericon" style="font-size:30px"></i></li>
+                        <li class="list"><i class="fa fa-linkedin footericon" style="font-size:30px"></i></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                      <div class="input-with-button">
+                        <input placeholder="email address..." type="text"><button class="footerbutton">Subscribe</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            <script>
+                document.querySelector("#contact-form").addEventListener("submit", (e) => {
+                    e.preventDefault();
+                    e.target.elements.name.value = "";
+                    e.target.elements.email.value = "";
+                    e.target.elements.message.value = "";
+                });
+            </script>
+            
+            <script src="script.js"></script>
+</body>
+
+</html>
